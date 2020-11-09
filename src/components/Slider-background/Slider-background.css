@@ -1,0 +1,30 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider-first {
+    background-image: url('../../assets/images/background-app1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-second {
+    background-image: url('../../assets/images/background-app2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-third {
+    background-image: url('../../assets/images/background-app3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

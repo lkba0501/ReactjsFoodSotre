@@ -1,0 +1,83 @@
+.intro-container {
+  left: 0;
+  width: 100%;
+  min-width: 820px;
+  height: auto;
+}
+
+.background-img {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: auto;
+  min-width: 820px;
+  left: 50px;
+  right: 50px;
+  bottom: 0px;
+  opacity: 1;
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/intro-background3.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-content {
+  position: relative;
+  min-width: 820px;
+  display: flex;
+}
+
+.left-content {
+  background-color: black;
+  color: white;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 50px;
+  margin: auto;
+  flex: 300;
+  min-width: 300px;
+  min-height: 600px;
+}
+
+.slogan-text {
+  margin-top: 33%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.decription-slogan {
+  text-align: center;
+  font-size: 15px;
+  margin: 0 50px 0px 50px;
+}
+
+.right-content {
+  position: relative;
+  width: 100%;
+  left: 0;
+  flex: 513;
+  margin-left: 0px;
+  min-width: 513px;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.trending-food {
+  text-align: center;
+  position: relative;
+  min-width: 820px;
+  width: 100%;
+  top: 70px;
+  margin: 0px 50px 0px 50px;
+}

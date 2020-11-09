@@ -1,0 +1,17 @@
+.nav-content {
+    position: fixed;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 90px;   
+    width: 90%;
+    z-index: 99;
+}
+
+.logo-app {
+    font-size: 2em;
+}
+
+.social-network {
+    width: 100%;
+    height: 20px;
+}

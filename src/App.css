@@ -1,0 +1,137 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x:hidden;
+}
+
+.header-page {
+  width: 100%;
+  height: 100%;
+  max-height: 936px;
+  position: relative;
+  text-align: center;
+  font-size: 1.4em;
+  background-image: url("./assets/images/background-app2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-wellcome{
+  z-index: 1;
+  margin-top: 450px;
+  position: absolute;
+  width: 559px;
+  pointer-events: none;
+  left: 237px;
+}
+
+.home-menu {
+  z-index: 1;
+  height: 48px;
+  min-height: 19px;
+  width: 151px;
+  position: relative;
+  margin: 0px 0px 10px calc((100% - 980px) * 0);
+  left: 243px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+  margin-top: 600px; 
+}
+
+.home-menu :hover {
+  text-decoration: none;
+  background-color: darkgray;
+}
+
+.button-menu-ousite {
+  justify-content: center;
+  background-color: transparent;
+  border: solid rgba(255, 255, 255, 1) 1px;
+  cursor: pointer !important;
+  text-align: initial;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button-menu {
+  font-size: 0.8em;
+  font: normal normal normal 14px/1.4em raleway,sans-serif;
+  transition: color 0.4s ease 0s;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: calc(-1 * 1px) 1px 0;
+  position: relative;
+  white-space: nowrap;
+
+}
+
+.custom-style {
+  line-height: 1.1em;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.home-product {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.intro-app {
+  margin-top: 5px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.trend-food {
+  margin-top: 5px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.reservations-app {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.home-footer {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  background-color: chocolate;
+  position: relative;
+}
+
+.open-hours-detail {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.made-by, address {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.chat {
+  position: fixed;
+  font-size: 2em;
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
